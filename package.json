@@ -1,8 +1,8 @@
 {
     "name": "Icarus",
-    "description": "An variation on the default Ghost blog theme, casper. It includes several enhancements including better mobile support and search features",
+    "description": "An variation on the default Ghost blog theme, casper. It includes several enhancements including better mobile support and search features.",
     "demo": "https://spex.rit.edu",
-    "version": "1.1",
+    "version": "1.2",
     "engines": {
         "ghost": ">=1.2.0"
     },

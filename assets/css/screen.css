@@ -38,10 +38,12 @@ body {
     background-color: #E5E5E5;
     border-radius: 2px;
     padding:5px;
+    text-decoration: none!important;
 }
 
 .tag-button:hover{
 	background-color: #CECECE;
+	text-decoration: none!important;
 }
 
 
