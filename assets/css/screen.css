@@ -125,7 +125,7 @@ body {
     padding-top: 12px;
     padding-bottom: 12px;
     color: #fff;
-    background: #ff6a00;
+    background: linear-gradient(#ff6a00, #ff6a11);
     background-size: cover;
 }
 
@@ -585,7 +585,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
 }
 
 .post-full-meta-date {
-    color: var(--blue);
+    color: #ff6a00;
 }
 
 .post-full-title {
@@ -1119,7 +1119,7 @@ Usage (In Ghost editor):
     font-weight: 400;
     text-align: center;
     text-shadow: 0 -1px 0 rgba(0,0,0,0.1);
-    background: #ff6a00;
+    background: linear-gradient(#ff6a00, #ff6a11);
     border-radius: 5px;
     box-shadow: 0 0 0 1px inset rgba(0,0,0,0.14);
 
@@ -1513,11 +1513,11 @@ Usage (In Ghost editor):
 }
 
 .progress::-webkit-progress-value {
-    background-color: #ff6a00;
+    background-color: linear-gradient(#ff6a00, #ff6a11);
 }
 
 .progress::-moz-progress-bar {
-    background-color: #ff6a00;
+    background-color: linear-gradient(#ff6a00, #ff6a11);
 }
 
 .progress-container {
@@ -1534,7 +1534,7 @@ Usage (In Ghost editor):
     display: block;
     width: 50%;
     height: inherit;
-    background-color: #ff6a00;
+    background-color: linear-gradient(#ff6a00, #ff6a11);
 }
 
 @media (max-width: 900px) {
@@ -1861,7 +1861,7 @@ Usage (In Ghost editor):
     padding-top: 20px;
     padding-bottom: 60px;
     color: #fff;
-    background: #ff6a00
+    background: linear-gradient(#ff6a00, #ff6a11)
 }
 
 .site-footer-content {
