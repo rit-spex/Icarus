@@ -19,7 +19,9 @@ into the {body} of the default.hbs template --}}
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMMM YYYY"}}</time>
+                    {{#author}} By  <a href="{{url}}"> {{name}}</a> <span style="margin: 0 5px">/</span> {{/author}}
+                    <time class="timestamp" datetime="{{date format='YYYY-MM-DD'}}"> {{date published_at timeago="true"}} </time>
+                    {{#if tags}} <span style="margin: 0 5px">/</span> {{tags limit="1"}} {{/if}}
                 </section>
                 <h1 class="post-full-title">{{title}}</h1>
             </header>
@@ -37,7 +39,7 @@ into the {body} of the default.hbs template --}}
 			{{#get "tags" limit="10" include="count.posts" order="count.posts desc"}}
 			<div>
                 <center>
-				<h2>All Tags</h2>
+				<h2>Tags</h2>
                 <p> </p>
 				{{#foreach tags}}
 				<a href="{{url absolute="true"}}" class="tag-button">{{name}}</a>
