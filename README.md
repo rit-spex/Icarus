@@ -1,6 +1,6 @@
 # Icarus
 
-This is an edited version of the default theme for [Ghost](http://github.com/tryghost/ghost/). It is made for the new RIT Space Exploration (SPEX) website. You can see it in action at spex.rit.edu.
+This is an edited version of the default theme for [Ghost](http://github.com/tryghost/ghost/). It is made for the new RIT Space Exploration (SPEX) website. You can see it in action at [spex.rit.edu](http://spex.rit.edu/).
 
 &nbsp;
 
