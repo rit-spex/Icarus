@@ -16,7 +16,7 @@
             {{/if}}
             <div class="author-meta">
                 {{#if location}}
-                    <div class="author-location">{{location}} <span class="bull">&bull;</span></div>
+                    <div class="author-location"><img src="{{asset 'images/pin.svg'}}">{{location}} <span class="bull">&bull;</span></div>
                 {{/if}}
                 <div class="author-stats">
                     {{plural ../pagination.total empty='No posts' singular='% post' plural='% posts'}} <span class="bull">&bull;</span>
