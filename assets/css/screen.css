@@ -125,7 +125,7 @@ body {
     padding-top: 12px;
     padding-bottom: 12px;
     color: #fff;
-    background: linear-gradient(#ff6a00, #ff4e00);
+    background: linear-gradient(#ff6a00, #ff5e00);
     background-size: cover;
 }
 
@@ -723,7 +723,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
 }
 
 .post-full-content a:hover {
-    color: #ff4e00;
+    color: #ff5e00;
     text-decoration: none;
 }
 
@@ -1119,7 +1119,7 @@ Usage (In Ghost editor):
     font-weight: 400;
     text-align: center;
     text-shadow: 0 -1px 0 rgba(0,0,0,0.1);
-    background: linear-gradient(#ff6a00, #ff4e00);
+    background: linear-gradient(#ff6a00, #ff5e00);
     border-radius: 5px;
     box-shadow: 0 0 0 1px inset rgba(0,0,0,0.14);
 
@@ -1796,7 +1796,7 @@ Usage (In Ghost editor):
     font-weight: 400;
     text-align: center;
     text-shadow: 0 -1px 0 rgba(0,0,0,0.1);
-    background: linear-gradient(#ff6a00, #ff4e00);
+    background: linear-gradient(#ff6a00, #ff5e00);
     border-radius: 8px;
     box-shadow: 0 0 0 1px inset rgba(0,0,0,0.14);
 
@@ -1856,7 +1856,7 @@ Usage (In Ghost editor):
     padding-top: 20px;
     padding-bottom: 60px;
     color: #fff;
-    background: linear-gradient(#ff6a00, #ff4e00);
+    background: linear-gradient(#ff6a00, #ff5e00);
 }
 
 .site-footer-content {
