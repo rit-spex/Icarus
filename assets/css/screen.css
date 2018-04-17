@@ -125,7 +125,7 @@ body {
     padding-top: 12px;
     padding-bottom: 12px;
     color: #fff;
-    background: linear-gradient(#ff6a00, #ff761c);
+    background: linear-gradient(#ff6a00, #ff4e00);
     background-size: cover;
 }
 
@@ -719,11 +719,11 @@ The first (most recent) post in the list is styled to be bigger than the others 
 
 .post-full-content a {
     color: #000;
-    box-shadow: var(--blue) 0 -1px 0 inset;
+    box-shadow: #ff6a00;
 }
 
 .post-full-content a:hover {
-    color: var(--blue);
+    color: #ff4e00;
     text-decoration: none;
 }
 
@@ -920,7 +920,7 @@ Usage (In Ghost editor):
     margin: 0.5em 0;
     padding: 1em 0 1.5em;
     border: 0;
-    color: var(--blue);
+    color: #ff6a00;
     font-family: Georgia,serif;
     font-size: 3.2rem;
     line-height: 1.35em;
@@ -963,7 +963,7 @@ Usage (In Ghost editor):
 }
 
 .footnote-backref {
-    color: var(--blue) !important;
+    color: #ff6a00 !important;
     font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none !important;
@@ -1119,7 +1119,7 @@ Usage (In Ghost editor):
     font-weight: 400;
     text-align: center;
     text-shadow: 0 -1px 0 rgba(0,0,0,0.1);
-    background: linear-gradient(#ff6a00, #ff761c);
+    background: linear-gradient(#ff6a00, #ff4e00);
     border-radius: 5px;
     box-shadow: 0 0 0 1px inset rgba(0,0,0,0.14);
 
@@ -1211,8 +1211,8 @@ Usage (In Ghost editor):
 }
 
 .author-card-button:hover {
-    border-color: var(--blue);
-    color: var(--blue);
+    border-color: #ff6a00;
+    color: #ff6a00;
     text-decoration: none;
 }
 
@@ -1796,12 +1796,7 @@ Usage (In Ghost editor):
     font-weight: 400;
     text-align: center;
     text-shadow: 0 -1px 0 rgba(0,0,0,0.1);
-    background: linear-gradient(
-    color(var(--blue) whiteness(+7%)),
-    color(var(--blue) lightness(-7%) saturation(-10%)) 60%,
-    color(var(--blue) lightness(-7%) saturation(-10%)) 90%,
-    color(var(--blue) lightness(-4%) saturation(-10%))
-    );
+    background: linear-gradient(#ff6a00, #ff4e00);
     border-radius: 8px;
     box-shadow: 0 0 0 1px inset rgba(0,0,0,0.14);
 
@@ -1810,7 +1805,7 @@ Usage (In Ghost editor):
 
 .subscribe-overlay button:active,
 .subscribe-overlay button:focus {
-    background: color(var(--blue) lightness(-9%) saturation(-10%));
+    background: #ff6a00;
 }
 
 .subscribe-overlay-close {
@@ -1861,7 +1856,7 @@ Usage (In Ghost editor):
     padding-top: 20px;
     padding-bottom: 60px;
     color: #fff;
-    background: linear-gradient(#ff6a00, #ff6a11);
+    background: linear-gradient(#ff6a00, #ff4e00);
 }
 
 .site-footer-content {
