@@ -8,7 +8,7 @@
 
 ## Free theme for Ghost
 
-Hello, I created this theme Ghost to see how it works. It is available for free so you can use on your site. It is strictly forbidden commercial use. If you have any suggestions to improve the theme,  you can send me tweet to [@GodoFredoNinja](http://bit.ly/tw-GodoFredoNinja)
+Bases on the GogoFredo Ninja theme
 
 ### 😃 To have updated the subject please help me with a small collaboration in [paypal](https://bit.ly/PayPal-GodoFredoNinja). I will thank you enormentene
 
