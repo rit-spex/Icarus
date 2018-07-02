@@ -641,6 +641,7 @@ hr:before {
 .u-bg-cover {
     background-position: 50%;
     background-size: cover
+	border-radius: 7px;
 }
 
 .u-bg-gradient {
@@ -763,6 +764,7 @@ hr:before {
     display: inline-block;
     font-size: 11px;
     padding: 4px 12px
+	border-radius: 3px;
 }
 
 .u-hide {
@@ -773,6 +775,7 @@ hr:before {
     background-color: #fff;
     -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, .02);
     box-shadow: 0 5px 5px rgba(0, 0, 0, .02)
+	border-radius: 7px;
 }
 
 .u-not-image {
@@ -852,6 +855,7 @@ img {
     max-width: 100%;
     vertical-align: middle;
     width: auto
+	border-radius: 7px;
 }
 
 img:not([src]) {
@@ -2987,6 +2991,7 @@ input.search-field:focus {
     margin-bottom: 3rem;
     padding: 30px 0 30px 100px;
     position: relative
+	border-radius: 7px;
 }
 
 .post-author h5 {
