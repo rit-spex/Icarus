@@ -2,7 +2,7 @@
 .nav-mob-copyright a,
 .pagination .pagination-link,
 a {
-    color: #0094FF
+    color: #202020
 }
 
 .btn.btn-primary,
@@ -14,18 +14,18 @@ a {
 .sidebar .title-primary,
 .u-tag,
 .u-tags:hover {
-    background-color: #0094FF!important
+    background-color: #202020!important
 }
 
 .form-control:focus {
-    border-color: #0094FF!important;
+    border-color: #202020!important;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(2, 115, 212, .6);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(2, 115, 212, .6)
 }
 
 .btn.btn-download,
 .btn.btn-download-cloud {
-    background-color: #0094FF
+    background-color: #202020
 }
 
 .btn.btn-download-cloud:hover,
@@ -34,17 +34,17 @@ a {
 }
 
 .pagination .pagination-link:before {
-    border: 2px solid #0094FF
+    border: 2px solid #202020
 }
 
 .mapache-load-more:hover {
-    border-color: #0094FF!important
+    border-color: #202020!important
 }
 
 .pagination .pagination-link.loanding:before {
-    border-bottom: 2px solid #0094FF
+    border-bottom: 2px solid #202020
 }
 
 blockquote {
-    border-color: #0094FF
+    border-color: #202020
 }
