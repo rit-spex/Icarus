@@ -3310,6 +3310,14 @@ input.search-field:focus {
     animation-name: slideOutDown
 }
 
+.responsiveCal {
+    position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
+}
+ 
+.responsiveCal iframe {
+    position: absolute; top:0; left: 0; width: 100%; height: 100%;
+}
+
 @-webkit-keyframes bounceIn {
     0%,
     20%,
@@ -3719,3 +3727,4 @@ input.search-field:focus {
         visibility: hidden
     }
 }
+
