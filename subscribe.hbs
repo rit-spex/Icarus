@@ -7,14 +7,17 @@
 
     <div class="subscribe-wrap">
         {{^if success}}
+            <center>
             <h2 class="subscribe-title">{{t "Subscribe to "}}{{@blog.title}}</h2>
-            <p>Subscribe for weekly updates straight to your inbox!</p>
+            <p>Subscribe for project and blog updates delivered straight to your inbox!</p>
+            <p>Are you an RIT Student who wants to get involved with RIT SPEX? Give us an email at Spex.rit@gmail.com</p>
+            </center>
 
             {{subscribe_form
                 form_class="subscribe-form"
                 input_class="subscribe-input"
                 button_class="btn btn-primary btn-block"
-                placeholder= (t "johndough@example.com")
+                placeholder= (t "youremail@example.com")
                 autofocus="true"
             }}
         {{else}}

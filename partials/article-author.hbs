@@ -1,11 +1,11 @@
 {{!-- Post author info --}}
-{{#author}}
+{{#primary_author}}
 
 <div class="post-author">
     <a class="post-author-avatar u-not-avatar" href="{{url}}" {{#if profile_image}}style="background-image:url({{profile_image}})"{{/if}}></a>
     <div class="post-author-wrap">
         {{!-- Author name and biography --}}
-        <p class="post-author-bio"><strong><a href="{{url}}">{{name}}</a></strong> {{#if bio}}— {{bio}}{{/if}}</p>
+        <p class="post-author-bio"><strong><a href="{{url}}">{{primary_author.name}}</a></strong> {{#if bio}}— {{bio}}{{/if}}</p>
 
         {{!-- Author -> facebook - twitter - location - website --}}
         <ul class="u-unstyled u-flex u-h-b-lg">
@@ -27,4 +27,4 @@
     </div>
 </div>
 
-{{/author}}
+{{/primary_author}}
